@@ -3,7 +3,7 @@ const sumArray = (array) => {
     return 0;
   } else if (array.length <= 1) {
     return 0;
-  } else {
+  } else {  
       array = array.sort((a,b) => a-b);
       let sum = 0;
       for (let i = 1; i < array.length - 1; i++) {
@@ -12,4 +12,4 @@ const sumArray = (array) => {
       return sum;
   }
 }
-console.log(sumArray([ -6, -20, -1, -10, -12 ]))
+console.log(sumArray([ -6, 29, 12, 3, 5 ]))
