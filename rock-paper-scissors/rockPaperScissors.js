@@ -7,4 +7,4 @@ const rps = (player1, player2) => {
   if (player1 === player2) return 'Draw!';
   return `Player ${finger[player1] === player2 ? 1 : 2} won`
 }
-console.log(rps('rock', 'paper'));
+console.log(rps('scissors', 'paper'));
