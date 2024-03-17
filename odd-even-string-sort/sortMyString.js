@@ -24,4 +24,4 @@ const sortMyString = (s) => {
   let odd = s.split('').filter((v, i) => i % 2 !== 0).join('');
   return `${even} ${odd}`;
 }
-console.log(sortMyString('sdfsdfsf'))
+console.log(sortMyString('umarhadi'))
