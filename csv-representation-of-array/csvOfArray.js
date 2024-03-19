@@ -17,9 +17,12 @@
 
 const toCsvText = (arr) => {
   let csvString = '';
+  // iterasi item yang ada di array
     for (let row of arr) {
+        // isi csvString dengan item, kemudian ubah item menjadi string dengan dipisahkan oleh koma (,) dan tambah \n
         csvString += row.join(',') + '\n';
     }
+    // kembalikan string dengan trim agar menghilangkan \n di belakang string
     return csvString.trim();
 }
 console.log(toCsvText([
