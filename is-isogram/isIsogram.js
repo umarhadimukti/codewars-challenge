@@ -10,5 +10,8 @@ const isIsogram = (str) => {
     }
     return true;
 }
+console.log(isIsogram('Umar'));
 
-isIsogram('Uamar');
+// another way
+const isIsogram2 = (str) => new Set(str.toLowerCase()).size === str.length;
+console.log(isIsogram2('Umar'))
