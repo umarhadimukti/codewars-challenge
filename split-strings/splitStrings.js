@@ -23,3 +23,9 @@ const splitInPairs = (str) => {
 
     return pairs;
 }
+
+console.log(splitInPairs('abc')); // ['ab', 'c_']
+console.log(splitInPairs('abcdef')); // ['ab', 'cd', 'ef']
+console.log(splitInPairs('')); // []
+console.log(splitInPairs('a')); // ['a_']
+console.log(splitInPairs('ab')); // ['ab']
